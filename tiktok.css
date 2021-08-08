@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+header{
+    background: #000;
+    height: 105vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.partner{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 20px 20px 20px #000;
+    color: #fff;
+    background: #3b3a39;
+    font-size: 30px;
+    border: 5px;
+    border-style: solid;
+    padding: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.partner button{
+    border: 5px solid;
+    padding: 12px;
+    color: #fff;
+    background: black;
+    font-size: 20px;
+}
+
+.footer{
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
